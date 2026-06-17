@@ -1,7 +1,6 @@
-md
-🛍️ Customer Shopping Behavior Analysis Dashboard
+# 🛍️Customer Shopping Behavior Analysis Dashboard
 
-📌 Project Overview
+## 📌 Project Overview
 
 The Customer Shopping Behavior Analysis Dashboard is an end-to-end data analytics project designed to analyze customer purchasing patterns and generate business insights from retail shopping data.
 
@@ -13,7 +12,7 @@ CSV datasets for data storage and transformation
 
 The objective is to transform raw customer transaction data into meaningful insights that support business decision-making and customer understanding.
 
-🎯 Business Problem
+## 🎯 Business Problem
 
 Retail businesses generate massive amounts of customer transaction data. However, identifying purchasing trends, high-value customer segments, and category performance can be difficult without proper analysis.
 
@@ -25,66 +24,112 @@ How frequently do customers purchase products?
 What factors influence customer satisfaction?
 Which customer segments contribute most to business growth?
 
-🏗️ Project Architecture
-
+## 🏗️ Project Architecture
 Customer Dataset (CSV)
+
 ↓
+
 Data Cleaning & Preprocessing (Python)
+
 ↓
+
 Feature Engineering
+
 ↓
+
 SQL Analysis
+
 ↓
+
 Power BI Dashboard
+
 ↓
+
 Business Insights
 
-📂 Project Structure
+## 📂 Project Structure
 
 Customer-Shopping-Behavior-Analysis-Dashboard/
+
 │
+
 ├── customer_shopping_behavior.csv
+
 ├── data.csv
+
 ├── Project.py
+
 ├── Cutomer_query.sql
+
 ├── Customer Behavior Dashboard.pbix
+
 ├── Dashboard Images
+
 └── README.md
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
+
 Technology	Purpose
+
 Python	Data Cleaning & Preprocessing
+
 Pandas	Data Manipulation
+
 NumPy	Numerical Analysis
+
 SQL	Data Querying
+
 Power BI	Dashboard Development
+
 CSV	Data Storage
-🧹 Data Preprocessing
+
+## 🧹 Data Preprocessing
+
 Missing Value Treatment
+
 Imputed missing Review Ratings using category-wise median values.
+
 Data Cleaning
+
 Standardized column names.
+
 Renamed columns for readability.
+
 Removed unnecessary columns.
+
 Feature Engineering
+
 Created Age Groups:
+
 Young Adult
+
 Adult
+
 Middle Aged
+
 Senior
+
 Converted purchase frequency into numerical days.
 
-📊 Dashboard Features
-1. Customer Demographics
+## 📊 Dashboard Features
+###  Customer Demographics
+
 ✔ Age Group Distribution
+
 ✔ Gender Analysis
+
 ✔ Customer Segmentation
 
-2. Sales Analysis
+###  Sales Analysis
+
 ✔ Total Purchase Amount
+
 ✔ Revenue by Category
+
 ✔ Average Spending per Customer
+
 ✔ Review Ratings
+
 ✔ Product Category Performance
 📈 Key Insights
 
@@ -99,10 +144,10 @@ Converted purchase frequency into numerical days.
 📷 Dashboard Preview
 <img width="1391" height="786" alt="image" src="https://github.com/user-attachments/assets/c6e30e5b-590a-4b05-82d0-372453893538" />
 
-🚀 How to Run the Project
+## 🚀 How to Run the Project
 Clone Repository
 
-git clone https://github.com/yourusername/Customer-Shopping-Behavior-Analysis-Dashboard.git
+git clone https://github.com/Harshjn01/Customer-Shopping-Behavior-Analysis-Dashboard.git
 
 cd Customer-Shopping-Behavior-Analysis-Dashboard
 
@@ -118,13 +163,19 @@ Open Dashboard
 
 Open Customer Behavior Dashboard.pbix in Power BI Desktop.
 
-🔮 Future Improvements
+## 🔮 Future Improvements
+
 Customer Segmentation using K-Means Clustering
+
 Purchase Prediction Models
+
 Real-Time Dashboard Integration
+
 Deployment using Power BI Service
+
 Automated ETL Pipelines
 
-👨‍💻 Author
+## 👨‍💻 Author
 Harsh jain 
-LinkDin = https://www.linkedin.com/in/harsh-jain-1725ab26a/
+
+Linkedin = https://www.linkedin.com/in/harsh-jain-1725ab26a/
